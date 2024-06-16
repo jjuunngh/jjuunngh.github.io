@@ -29,7 +29,7 @@ description              : "Way to HMG"   # 설명란입니다. (어디 적용�
 url                      : "https://jjuunngh.github.io/" # 현재의 블로그 url 입니다.
 baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
 repository               : "https://github.com/jjuunngh/jjuunngh.github.io" # Github Repo url입니다.
-teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결됩니다.
+teaser                   : "assets/images/myself.jpg"
 logo                     : # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅합니다.
 masthead_title           : "Design-Engineer"     # 화면 title 입니다.
 # breadcrumbs            : false # true, false (default)
@@ -125,7 +125,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "yyj212121@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -140,7 +140,7 @@ author:
       # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/vluvard/"
 
 # Site Footer
 footer:
@@ -324,6 +324,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
