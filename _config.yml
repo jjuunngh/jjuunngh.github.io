@@ -15,18 +15,23 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Site Title"
+minimal_mistakes_skin    : "default"  # 전체적인 블로그의 색감을 정하는 값입니다.
+                           # "default" "air", "aqua", "contrast", "dark"
+                           # "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "ko-KR"    # 블로그의 주요 언어입니다. 한국어로 보려고 ko-KR로 설정했습니다.
+title                    : "양정현의 포트폴리오"  # 사이트 탭에서 보이는 이름입니다.
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+subtitle                 : "version 1.0"              # 화면 title 하단에 있는 소제목입니다.
+name                     : "양정현(JungHyun Yang)"      # 화면 하단 영역의 이름입니다.
+description              : "Way to HMG"   # 설명란입니다. (어디 적용되는지 모르겠네요...) 
+url                      : "https://jjuunngh.github.io/" # 현재의 블로그 url 입니다.
+baseurl                  : # 폴백(예기치 못한 오류)일 때 연결되는 url입니다.
+repository               : "https://github.com/jjuunngh/jjuunngh.github.io" # Github Repo url입니다.
+teaser                   : # 폴백일 때 보일 이미지입니다. "assets/images/"로 연결됩니다.
+logo                     : # 화면에 보여지는 logo 이미지입니다. "assets/images"로 세팅합니다.
+masthead_title           : "Design-Engineer"     # 화면 title 입니다.
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : # true, false (default)
