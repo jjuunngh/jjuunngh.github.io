@@ -117,11 +117,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "양정현 JungHyun Yang"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Hongik Univ. Mechanical System Desgin Engineering. Senior"
+  location         : "Seoul Korea"
+  email            : "yyj212121@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
