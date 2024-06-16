@@ -18,14 +18,16 @@ Capstone Design Project
 
 Project Overview
 ------
-<p align="center"><img src="/assets/images/capstone-design/overview.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design/concept.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design/final appr.png" width="600"></p>
 
 &ensp;The main aim of this project was to integrate a conveyor mechanism with a cleaning system to enhance operational efficiency. The design considerations included structural stability and the specific requirements of each component.
 
 Key Features
 ------
-<p align="center"><img src="/assets/images/capstone-design/key-features.png" width="600"></p>
-
+<p align="center"><img src="/assets/images/capstone-design/cut.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design/cut2.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design/cut3.png" width="600"></p>
 &ensp;Some of the key features of this design include:
 * Robust structural design for stability.
 * Efficient cleaning mechanism integrated with the conveyor system.
@@ -33,6 +35,6 @@ Key Features
 
 Results
 ------
-<p align="center"><img src="/assets/images/capstone-design/results.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design/final.png" width="600"></p>
 
 &ensp;The final design was tested rigorously to ensure that all requirements were met. The project received top marks and was highly appreciated for its innovative approach and detailed execution.
