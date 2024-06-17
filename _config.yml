@@ -18,15 +18,15 @@ minimal_mistakes_skin  : "default" # "air", "aqua", "contrast", "dark", "dirt", 
 locale                   : "ko-KR"
 title                    : "양정현의 포트폴리오"
 title_separator          : "-"
-subtitle                 : "Design Engineer's Portfolio"
+subtitle                 : "양정현의 포트폴리오"
 name                     : "양정현(JungHyun Yang)"
 description              : "Way to HMG"
 url                      : "https://jjuunngh.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/jjuunngh/jjuunngh.github.io"
 teaser                   : "assets/images/myself.jpg"
-logo                     : "assets/images/logo.png"
-masthead_title           : "Design-Engineer"
+logo                     : #"assets/images/logo.png"
+masthead_title           : #"Design-Engineer"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : true
