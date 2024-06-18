@@ -16,6 +16,8 @@ author_profile: true
 
 **Role**: Team Leader
 
-**Description**: Designed variable control components of AMR Rolling Chassis  (fatigue and stress analysis). Outcome: A+
+**Description**: Designed variable control components of AMR (fatigue and stress analysis). Outcome: A+
 
-<p align="center"><img src="/assets/images/기요설/슬라이드1.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드2.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드3.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드4.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드5.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드6.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드7.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드8.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드9.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드10.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드11.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드12.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드13.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드14.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드15.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드16.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드17.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드18.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드19.png" width="600"></p><p align="center"><img src="/assets/images/기요설/슬라이드20.png" width="600"></p>
+{% for i in (1..20) %}
+<p align="center"><img src="/assets/images/기요설/슬라이드{{i}}.png" width="600"></p>
+{% endfor %}
