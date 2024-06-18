@@ -18,7 +18,7 @@ minimal_mistakes_skin  : "default" # "air", "aqua", "contrast", "dark", "dirt", 
 locale                   : "ko-KR"
 title                    : "양정현의 포트폴리오"
 title_separator          : "-"
-subtitle                 : "양정현의 포트폴리오"
+subtitle                 : #"양정현의 포트폴리오"
 name                     : "양정현(JungHyun Yang)"
 description              : "Way to HMG"
 url                      : "https://jjuunngh.github.io"
