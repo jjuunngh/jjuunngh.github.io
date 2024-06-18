@@ -18,4 +18,8 @@ author_profile: true
 
 **Description**: Made and designed rice sorter for Uganda with students from the University of Wuppertal, Germany.
 
-Conducted fluid analysis, dynamic analysis, prototype production, and collaboration. Nx Nastran, Nx CAD, Adams, Ansys fluent was used.  Outcome: A+
+Conducted fluid analysis, dynamic analysis, prototype production, and collaboration. Nx Nastran, Nx CAD, Adams, Ansys fluent was used. Outcome: A+
+
+### PDF Viewer
+
+<iframe src="/assets/pdf/부퍼탈/TEAM_A_최종발표자료.pdf" width="100%" height="600px"></iframe>

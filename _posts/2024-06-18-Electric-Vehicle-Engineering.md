@@ -17,3 +17,5 @@ author_profile: true
 **Role**: Individual
 
 **Description**: Under the various operating conditions of Tesla models, interpretation is carried out from the perspective of powertrain/energy such as electricity supply and regenerative braking using GT-suite.
+
+<iframe src="/assets/pdf/전기차/전기차.pdf" width="100%" height="600px"></iframe>
