@@ -1,19 +1,4 @@
-{% if site.author %}
-  <div class="author-profile">
-    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
-    <h3>{{ site.author.name }}</h3>
-    <p>{{ site.author.bio }}</p>
-    <ul class="social-links">
-      {% for link in site.author.links %}
-        <li>
-          <a href="{{ link.url }}">
-            <i class="{{ link.icon }}"></i> {{ link.label }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-{% endif %}
+
 
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
