@@ -15,8 +15,8 @@ last_modified_at: 2024-06-16
 Capstone Design Project
 ======
 <video width="600" height="400" controls>
-  <source src="/assets/videos/캡스톤/2.mp4" type="video/mp4">
-  <source src="/assets/videos/캡스톤/1.mp4" type="video/mp4">
+  <source src="/assets/video/캡스톤/2.mp4" type="video/mp4">
+  <source src="/assets/video/캡스톤/1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -48,5 +48,5 @@ Results
 Final Prsentation
 -----
 {% for i in (1..29) %}
-<p align="center"><img src="/assets/images/capstone-design/Capstone2024_1_final report/slide{{i}}.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design//slide{{i}}.png" width="600"></p>
 {% endfor %}

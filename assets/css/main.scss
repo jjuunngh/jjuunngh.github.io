@@ -7,3 +7,10 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.sidebar-profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Optional: To make the image circular */
+    margin: 0 auto; /* Center align the image */
+}

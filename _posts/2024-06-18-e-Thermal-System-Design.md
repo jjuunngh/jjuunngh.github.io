@@ -21,3 +21,4 @@ author_profile: true
 {% for i in (1..25) %}
 <p align="center"><img src="/assets/images/thermal/slide{{i}}.png" width="600"></p>
 {% endfor %}
+

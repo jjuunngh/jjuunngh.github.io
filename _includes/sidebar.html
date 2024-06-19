@@ -1,6 +1,6 @@
 {% if site.author %}
   <div class="author-profile">
-    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="sidebar-profile-img">
     <h3>{{ site.author.name }}</h3>
     <p>{{ site.author.bio }}</p>
     <ul class="social-links">
@@ -14,6 +14,7 @@
     </ul>
   </div>
 {% endif %}
+
 
 {% if site.sidebar %}
   {% for s in site.sidebar %}
