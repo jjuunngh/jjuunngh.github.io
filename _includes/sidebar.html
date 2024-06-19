@@ -1,23 +1,28 @@
-
-
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}
-    {% include author-profile.html %}
-  {% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src="{{ s.image | relative_url }}"
-             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
-  {% endif %}
+{% if site.author %}
+  <div class="author-profile">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+    <h3>{{ site.author.name }}</h3>
+    <p>{{ site.author.bio }}</p>
+    <ul class="social-links">
+      {% for link in site.author.links %}
+        <li>
+          <a href="{{ link.url }}">
+            <i class="{{ link.icon }}"></i> {{ link.label }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
+{% endif %}
+
+{% if site.sidebar %}
+  {% for s in site.sidebar %}
+    {% if s.image %}
+      <img src="{{ s.image | relative_url }}"
+           alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+    {% endif %}
+    {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+    {% if s.text %}{{ s.text | markdownify }}{% endif %}
+    {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+  {% endfor %}
 {% endif %}

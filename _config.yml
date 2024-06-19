@@ -74,7 +74,7 @@ lunr:
   search_within_pages: true
 algolia:
   application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR INDEX_NAME
+  index_name: # YOUR_INDEX_NAME
   search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
   powered_by: true # true (default), false
 google:
@@ -308,8 +308,10 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: true
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "docs"
