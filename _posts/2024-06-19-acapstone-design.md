@@ -48,5 +48,5 @@ Results
 Final Prsentation
 -----
 {% for i in (1..29) %}
-<p align="center"><img src="/assets/images/capstone-design/Capstone2024_1_final report/슬라이드{{i}}.png" width="600"></p>
+<p align="center"><img src="/assets/images/capstone-design/Capstone2024_1_final report/slide{{i}}.png" width="600"></p>
 {% endfor %}

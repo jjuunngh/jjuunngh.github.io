@@ -19,5 +19,5 @@ author_profile: true
 **Description**: Designed variable control components of AMR (fatigue and stress analysis). Outcome: A+
 
 {% for i in (1..20) %}
-<p align="center"><img src="/assets/images/기요설/슬라이드{{i}}.png" width="600"></p>
+<p align="center"><img src="/assets/images/mechel/slide{{i}}.png" width="600"></p>
 {% endfor %}
